@@ -1,0 +1,6 @@
+[submodule "routine"]
+	path = routine
+	url = git@github.com:henrypp/routine.git
+[submodule "builder"]
+	path = builder
+	url = git@github.com:henrypp/builder.git

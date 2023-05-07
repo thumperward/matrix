@@ -13,14 +13,12 @@ green "Matrix" cypher-code seen in the films.
 
 ## Building
 
-A [devcontainer](containers.dev) is provided to simplify building. It uses Mono
-to build the Visual Studio solution. Alternatively you can use Visual Studio
-itself.
+A Docker file is provided to simplify building. Alternatively you can use
+Visual Studio itself.
 
-From the container:
-
-```sh
-msbuild matrix.sln -p:Configuration=Release
+```powershell
+docker build -t buildtools:latest -m 2GB .
+docker run -v "$(pwd)\:C:\Build\" buildtools msbuild C:\Build\matrix.sln /property:Configuration=Release
 ```
 
 ## License and authors
