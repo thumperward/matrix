@@ -1,5 +1,5 @@
 [submodule "routine"]
-	path = routine
+	path = src/routine
 	url = git@github.com:henrypp/routine.git
 [submodule "builder"]
 	path = builder

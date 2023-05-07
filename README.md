@@ -13,12 +13,20 @@ green "Matrix" cypher-code seen in the films.
 
 ## Building
 
-A Docker file is provided to simplify building. Alternatively you can use
-Visual Studio itself.
+A Docker file is provided to simplify building.
 
 ```powershell
+git submodule init
 docker build -t buildtools:latest -m 2GB .
 docker run -v "$(pwd)\:C:\Build\" buildtools msbuild C:\Build\matrix.sln /property:Configuration=Release
+```
+
+Alternatively you can use Visual Studio itself. The provided build system
+requires Python to be installed.
+
+```cmd
+git submodule init
+build.bat
 ```
 
 ## License and authors
