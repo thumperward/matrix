@@ -6,13 +6,12 @@
 ![Contributors](https://img.shields.io/github/contributors/thumperward/matrix)
 ![GPLv3](https://img.shields.io/github/license/thumperward/matrix)
 
--------
+The Matrix ScreenSaver is a small, fast and elegant Windows version of the
+green "Matrix" cypher-code seen in the films.
 
 ![Screenshot](assets/matrix.png)
 
-## Description
-
-The Matrix ScreenSaver is a small, fast and elegant Windows version of the green "Matrix" cypher-code seen in the films.
+## License and authors
 
 Originally written by J Brown 2003.
 
