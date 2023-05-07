@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v1.4.1 (7 May 2023)
+
+- Added Dockerfile to simplify building without installing Visual Studio.
+- Tidied documentation.
+- Used a standard gitignore and put all build artifacts in the same place.
+- Changed submodule installation directories.
+
 ## v1.4 (12 September 2018)
 
 - added settings window
