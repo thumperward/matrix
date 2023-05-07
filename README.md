@@ -11,6 +11,18 @@ green "Matrix" cypher-code seen in the films.
 
 ![Screenshot](assets/matrix.png)
 
+## Building
+
+A [devcontainer](containers.dev) is provided to simplify building. It uses Mono
+to build the Visual Studio solution. Alternatively you can use Visual Studio
+itself.
+
+From the container:
+
+```sh
+msbuild matrix.sln -p:Configuration=Release
+```
+
 ## License and authors
 
 Originally written by J Brown 2003.
